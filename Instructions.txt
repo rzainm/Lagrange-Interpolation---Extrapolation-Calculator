@@ -1,0 +1,11 @@
+1.) After installing/upgrading to the latest version of Python, make sure pip, setuptools, and wheel is up to date. In the command prompt (run as admin), type:
+pip install --upgrade pip setuptools wheel
+2.) Then, download the following packages by using the command,  pip install <package>
+Packages to be download:
+matplotlib
+pandas
+numpy
+3.) Before running the Python file, in line 25, change the file directory to where the icon image is placed.
+4.) If there are still errors in running the file, check that the module ez_setup is not missing (pip --version ez_setup). If it is, then do
+pip install ez_setup
+
